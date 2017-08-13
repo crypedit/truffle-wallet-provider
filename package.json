@@ -1,6 +1,6 @@
 {
   "name": "truffle-wallet-provider",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Wallet-enabled Web3 provider",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptedit/truffle-wallet-provider.git"
+    "url": "git+https://github.com/crypedit/truffle-wallet-provider.git"
   },
   "keywords": [
     "etheruem",
@@ -18,9 +18,9 @@
   "author": "Fan Jiang <fan.torchz@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cryptedit/truffle-wallet-provider/issues"
+    "url": "https://github.com/crypedit/truffle-wallet-provider/issues"
   },
-  "homepage": "https://github.com/cryptedit/truffle-wallet-provider#readme",
+  "homepage": "https://github.com/crypedit/truffle-wallet-provider#readme",
   "dependencies": {
     "ethereumjs-wallet": "^0.6.0",
     "web3": "^0.18.2",
