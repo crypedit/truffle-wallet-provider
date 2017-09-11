@@ -19,8 +19,11 @@ var provider = new WalletProvider(wallet, "https://ropsten.infura.io/"),
 
 Parameters:
 
-- `wallet`: a wallet object.
-- `provider_uri`: `string`. URI of Ethereum client to send all other non-transaction-related Web3 requests.
+- `wallet`: `wallet` object. Used to provide the keys to sign all transactions.
+- `provider_or_url`: `string`. URL of Ethereum client to send all other non-transaction-related Web3 requests, or an `HttpProvider` instance.
+- `timeout`: (optional) `number`. Timeout for requests sent to provider.
+- `user`: (optional) `string`. User for basic authentication to the provider.
+- `password`: (optional) `string`. password for basic authentication to the provider.
 
 ## Truffle Usage
 
